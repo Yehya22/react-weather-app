@@ -2,6 +2,11 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
 const resources = {
+  en: {
+    translation: {
+      error_1006: "invaild search term please try again",
+    },
+  },
   ar: {
     translation: {
       Success: "نجاح",
